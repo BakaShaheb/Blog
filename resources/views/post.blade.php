@@ -1,11 +1,10 @@
 <!doctype html>
 
 <title> First Post </title>
-<link rel="stylesheet" href="app.css">
+
+<link rel="stylesheet" href="{{ asset('app.css') }}">
 
 <body>
-
-    
     
     <article> 
         <?= $post; ?>
